@@ -14,3 +14,37 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.data-section {
+  display: grid;
+  grid-template-columns: fit-content(200px) 1fr;
+  font-size: 1.1rem;
+}
+
+.data-section h3 {
+  margin: 0;
+  padding: 5px;
+  font-size: 1.1rem;
+}
+
+.data-section .data-item__data {
+  padding: 5px;
+}
+
+.file-grid {
+  display: grid;
+  margin: 20px 0;
+  grid-template-columns: 1fr 1fr;
+}
+
+.row-data {
+  border: 1px solid #c0c0c0;
+  padding: 10px;
+}
+
+.cell {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
